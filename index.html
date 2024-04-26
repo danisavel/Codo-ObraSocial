@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Salud</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff;
+}
+
+header {
+    background-color: #add8e6;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+nav {
+    background-color: #add8e6;
+    overflow: hidden;
+}
+
+nav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #00bfff;
+}
+
+section {
+    padding: 20px;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #add8e6;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+</style>
+    
+</head>
+    
+<body>
+    <header>
+        <h1>Quiénes Somos</h1>
+        <nav>
+            <a href="planes2.html">Planes</a>
+            <a href="#sucursales">Sucursales</a>
+            <a href="#novedades">Novedades</a>
+            <a href="#preguntas">Preguntas Frecuentes</a>
+            <a href="#contacto">Contacto</a>
+            <a href="#mi-cuenta">Mi Cuenta</a>
+        </nav>
+    </header>
+
+    <section id="planes">
+        <h2>Planes</h2>
+        <ul>
+            <li>Plan A</li>
+            <li>Plan B</li>
+            <li>Plan C</li>
+        </ul>
+    </section>
+
+    <section id="sucursales">
+        <h2>Sucursales</h2>
+        <p>Información sobre las sucursales de la obra social.</p>
+    </section>
+
+    <section id="novedades">
+        <h2>Novedades</h2>
+        <p>Información sobre novedades, descuentos, etc.</p>
+    </section>
+
+  <section id="preguntas">
+        <h2>Preguntas Frecuentes</h2>
+        <form>
+            <!-- Formulario de preguntas frecuentes -->
+        </form>
+
+        <form>
+            <label for="pregunta">Escribe tu pregunta:</label><br>
+            <input type="text" id="pregunta" name="pregunta"><br>
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <form>
+            <label for="nombre">Nombre:</label><br>
+            <input type="text" id="nombre" name="nombre"><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br>
+            <label for="mensaje">Mensaje:</label><br>
+            <textarea id="mensaje" name="mensaje"></textarea><br>
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2024 Página de Salud. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
+
